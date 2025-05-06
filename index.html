@@ -21,35 +21,13 @@
 
     <section id="tutoring" class="section">
       <h2>What I Offer</h2>
-
-      <div class="tabs content-wrapper">
-        <div class="tab-buttons">
-          <button class="tab-link active" data-tab="dslr">DSLR Basics</button>
-          <button class="tab-link" data-tab="manual">Manual Mode</button>
-          <button class="tab-link" data-tab="composition">Composition</button>
-          <button class="tab-link" data-tab="editing">Photoshop Editing</button>
-        </div>
-
-        <div class="tab-content active" id="tab-dslr">
-          <h3>📷 DSLR Basics</h3>
-          <p>Understand how your DSLR camera works—from ISO and aperture to shutter speed—and how to take control of your photos instead of relying on auto mode.</p>
-        </div>
-    
-        <div class="tab-content" id="tab-manual">
-          <h3>⚙️ Manual Mode</h3>
-          <p>Learn how to shoot in full manual mode with confidence, giving you full creative control over your camera settings and the fina image.</p>
-        </div>
-    
-        <div class="tab-content" id="tab-composition">
-          <h3>🎯 Composition Techniques</h3>
-          <p>Master the art of framing, rule of thirds, leading lines, and other techniques that make your photos visually striking and professionally composed.</p>
-        </div>
-    
-        <div class="tab-content" id="tab-editing">
-          <h3>🖥️ Photoshop Editing</h3>
-          <p>Get started with Adobe Photoshop—learn essential tools, color correction, retouching, and how to make your photos pop with style.</p>
-        </div>
-      </div>
+      <ul>
+        <li>📷 DSLR Basics: Learn how your camera works, from shutter speed to ISO.</li>
+        <li>⚙️ Manual Shooting: Get comfortable using full manual mode.</li>
+        <li>🎯 Composition Techniques: Create powerful, eye-catching photos.</li>
+        <li>🖥️ Editing Basics: Learn Adobe Photoshop for photo enhancement to ensure your photos reach their maximum potential.</li>
+      </ul>
+      <p>Whether you're just getting started or looking to refine your style, I offer personalized lessons tailored to your goals.</p>
     </section>
 
     <section id="portfolio" class="section">
@@ -79,24 +57,5 @@
       <a href="https://pinterest.com/yourprofile" target="_blank">📌 Pinterest</a>
     </div>
   </footer>
-  
-  <script>
-  const tabLinks = document.querySelectorAll('.tab-link');
-  const tabContents = document.querySelectorAll('.tab-content');
-
-  tabLinks.forEach(button => {
-    button.addEventListener('click', () => {
-      const tabId = button.getAttribute('data-tab');
-
-      // Remove "active" from all tabs and buttons
-      tabLinks.forEach(btn => btn.classList.remove('active'));
-      tabContents.forEach(content => content.classList.remove('active'));
-
-      // Add "active" to the clicked button and its tab
-      button.classList.add('active');
-      document.getElementById(`tab-${tabId}`).classList.add('active');
-    });
-  });
-</script>
 </body>
 </html>
