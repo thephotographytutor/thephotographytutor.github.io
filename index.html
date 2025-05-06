@@ -79,5 +79,24 @@
       <a href="https://pinterest.com/yourprofile" target="_blank">📌 Pinterest</a>
     </div>
   </footer>
+  
+  <script>
+  const tabLinks = document.querySelectorAll('.tab-link');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabLinks.forEach(button => {
+    button.addEventListener('click', () => {
+      const tabId = button.getAttribute('data-tab');
+
+      // Remove "active" from all tabs and buttons
+      tabLinks.forEach(btn => btn.classList.remove('active'));
+      tabContents.forEach(content => content.classList.remove('active'));
+
+      // Add "active" to the clicked button and its tab
+      button.classList.add('active');
+      document.getElementById(`tab-${tabId}`).classList.add('active');
+    });
+  });
+</script>
 </body>
 </html>
