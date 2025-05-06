@@ -22,7 +22,7 @@ a:hover {
   background: linear-gradient(to right, #fff6f6, #fff6f6);
   color: white;
   text-align: center;
-  padding: 4rem 0.5rem;
+  padding: 4rem 0rem;
 }
 .hero h1 {
   font-size: 3rem;
@@ -34,7 +34,7 @@ a:hover {
 .logo {
   max-width: 180px;
   height: auto;
-  margin-bottom: 0.01rem;
+  margin-bottom: 0rem;
 }
 
 /* Sections */
