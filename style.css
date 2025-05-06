@@ -6,7 +6,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #ffffff;
-  color: #333;
+  color: #050505;
   line-height: 1.6;
 }
 a {
@@ -94,7 +94,7 @@ ul li {
 /* Footer */
 footer {
   background: #fff6f6;
-  color: #eee;
+  color: #050505;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -103,7 +103,7 @@ footer .social-links {
 }
 footer .social-links a {
   margin: 0 0.5rem;
-  color: #eee;
+  color: #050505;
   font-size: 1.1rem;
 }
 footer .social-links a:hover {
