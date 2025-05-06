@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f8f9fa;
+  background: #ffffff;
   color: #333;
   line-height: 1.6;
 }
@@ -93,7 +93,7 @@ ul li {
 
 /* Footer */
 footer {
-  background: #333;
+  background: #fff6f6;
   color: #eee;
   text-align: center;
   padding: 2rem 1rem;
