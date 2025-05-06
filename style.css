@@ -1,0 +1,107 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero/Header */
+.hero {
+  background: linear-gradient(to right, #222, #555);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+.about-photo {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Portfolio */
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.portfolio-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+.portfolio-gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* Contact */
+#contact a {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #eee;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+footer .social-links {
+  margin-top: 1rem;
+}
+footer .social-links a {
+  margin: 0 0.5rem;
+  color: #eee;
+  font-size: 1.1rem;
+}
+footer .social-links a:hover {
+  color: #00aced;
+}
