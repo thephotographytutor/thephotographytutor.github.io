@@ -17,81 +17,47 @@ a:hover {
   text-decoration: underline;
 }
 
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
 /* Hero/Header */
 .hero {
   background: linear-gradient(to right, #fff6f6, #fff6f6);
   color: white;
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 4rem 0.5rem;
 }
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
 .hero p {
-  font-size: 0.5rem;
+  font-size: 1.2rem;
 }
 .logo {
-  max-width: 250px;
+  max-width: 180px;
   height: auto;
-  margin-bottom: 0rem;
-}
-.about h2 {
-  text-align: center;
-}
-.tutoring h2 {
-  text-align: center;
-}
-/* Tabs Layout */
-.tabs {
-  margin-top: 1.5rem;
+  margin-bottom: 0.01rem;
 }
 
-.tab-buttons {
+/* Sections */
+.section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.content-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  justify-content: center;
+  gap: 2rem;
+  align-items: center;
 }
-
-.tab-link {
-  background: #0077cc;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.tab-link:hover {
-  background: #005fa3;
-}
-
-.tab-link.active {
-  background: #004e8c;
-}
-
-.tab-content {
-  display: none;
-  animation: fadeIn 0.3s ease;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+.about-photo {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* List Styling */
@@ -105,9 +71,6 @@ ul li {
 }
 
 /* Portfolio */
-.portfolio h2 {
-  text-align: center;
-}
 .portfolio-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -124,12 +87,6 @@ ul li {
 }
 
 /* Contact */
-.contact h2 {
-  text-align: center;
-}
-.contact p {
-  text-align: center;
-}
 #contact a {
   font-weight: bold;
 }
