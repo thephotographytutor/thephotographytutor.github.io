@@ -17,6 +17,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
 /* Hero/Header */
 .hero {
   background: linear-gradient(to right, #fff6f6, #fff6f6);
@@ -47,6 +53,7 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .tab-link {
