@@ -42,7 +42,12 @@ a:hover {
   height: auto;
   margin-bottom: 0rem;
 }
-
+.about h2 {
+  text-align: center;
+}
+.tutoring h2 {
+  text-align: center;
+}
 /* Tabs Layout */
 .tabs {
   margin-top: 1.5rem;
@@ -100,6 +105,9 @@ ul li {
 }
 
 /* Portfolio */
+.portfolio h2 {
+  text-align: center;
+}
 .portfolio-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -116,6 +124,12 @@ ul li {
 }
 
 /* Contact */
+.contact h2 {
+  text-align: center;
+}
+.contact p {
+  text-align: center;
+}
 #contact a {
   font-weight: bold;
 }
