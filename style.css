@@ -103,9 +103,9 @@ footer .social-links {
 }
 footer .social-links a {
   margin: 0 0.5rem;
-  color: #050505;
+  color: #ff;
   font-size: 1.1rem;
 }
 footer .social-links a:hover {
-  color: #00aced;
+  color: #ffffff;
 }
