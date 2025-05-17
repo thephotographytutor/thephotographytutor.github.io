@@ -19,7 +19,7 @@ a:hover {
 
 /* Hero/Header */
 .hero {
-  background: linear-gradient(to right, #fff6f6, #fff6f6);
+  background: linear-gradient(to right, #111111, #111111);
   color: white;
   text-align: center;
   padding: 4rem 0.5rem;
@@ -93,7 +93,7 @@ ul li {
 
 /* Footer */
 footer {
-  background: #fff6f6;
+  background: #111111;
   color: #050505;
   text-align: center;
   padding: 2rem 1rem;
